@@ -13,11 +13,11 @@ I used two provided datasets with information on over 140,000 individual restaur
 
 Orders dataset:
 
-![image](https://github.com/user-attachments/assets/d394558c-fdb8-464e-a18c-4c187f43b43d)
+![Image](https://github.com/user-attachments/assets/5ef5f8c8-245e-45da-89ff-ef8edede3903)
 
 Restaurant dataset: 
 
-![image](https://github.com/user-attachments/assets/49ffd144-df07-49e9-b04d-de7cdeedbce5)
+![Image](https://github.com/user-attachments/assets/65f75916-dbb3-4cd2-9035-bcb294f5efb6)
 
 
 ### The Process
