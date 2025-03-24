@@ -19,9 +19,6 @@ Restaurant dataset:
 
 ![image](https://github.com/user-attachments/assets/49ffd144-df07-49e9-b04d-de7cdeedbce5)
 
-Users dataset: 
-
-![image](https://github.com/user-attachments/assets/4dd0ad03-987b-4aa1-b291-e7144a9fa729)
 
 ### The Process
 For my project on analyzing restaurant performance based on various factors, the process began with integrating data from two primary sources: restaurant details and order records. I merged these tables effectively, a task that required converting the 'R Id' column from a decimal to an integer in the orders dataset to accurately match the 'Id' column in the restaurant dataset. Following the merge, I cleaned the data to ensure the integrity and uniformity of the datasets involved, which included replacing blanks with null or zero as appropriate.
