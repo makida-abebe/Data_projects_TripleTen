@@ -1,0 +1,22 @@
+## Analysis Process
+To calculate how much money the most attractive listings generated, I focused on identifying the top 10 neighborhoods and the most popular-sized properties within those neighborhoods. This was done by creating a `top_listing_identifier` column in the dataset. To estimate annual revenue, I multiplied the revenue from the last month by 12, providing a simple yet effective annualization.
+
+## Results
+This analysis aims to identify the most attractive and profitable Airbnb listings in Manhattan. The objective was to maximize annual revenue and understand customer preferences. The approach involved:
+- **Data Cleaning and Preparation**: Ensuring the accuracy of the data to produce reliable insights.
+- **Creation of Key Metrics**: Including revenue, annual revenue, and occupancy rates.
+- **Data Analysis**: Using pivot tables and visualizations to uncover key insights.
+- **Focus Areas**: Special emphasis was placed on 1-bedroom properties and top-performing neighborhoods to refine investment recommendations.
+
+**Findings**:
+- **Top Neighborhoods**: Lower East Side, Midtown, and Upper East Side were identified as hosting some of the most lucrative listings.
+- **High Revenue Listings**: Specific properties in these neighborhoods achieved the highest annual revenue, indicating their profitability and attractiveness.
+
+These insights are invaluable for Airbnb hosts looking to optimize their property offerings and pricing strategies to increase profitability.
+
+## Project Link
+For more detailed data and visualizations, please visit the project spreadsheet:
+[Manhattan Airbnb Analysis Spreadsheet](https://docs.google.com/spreadsheets/d/1vlrRepf-EwGSrMyQh5E6M5qdB2SWVOGo7x0IzpJRY4M/edit?usp=sharing)
+
+
+
