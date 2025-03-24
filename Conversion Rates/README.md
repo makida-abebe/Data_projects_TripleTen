@@ -8,21 +8,20 @@ The provided data was a raw transaction log spreadsheet including `'user_id'`, `
 and retention rate analysis.
 
 ### The Process
-A unique UserID count was used to build the conversion funnel for the 3 events present in the raw activity data: page view, open shopping cart, and complete purchase. 
+To construct the conversion funnel, a unique UserIDs count was applied to the three types of events documented in the raw data: page view, open shopping cart, and complete purchase.
 
+![Image](https://github.com/user-attachments/assets/8d189518-dc0b-4df4-a405-fa957552f4f0)
 
+User cohorts were established based on the month when individual users first made a purchase. The VLookup function was used to determine the first purchase date of each customer associated with product page events in the dataset. Columns labeled 'first_purchase_month' and 'cohort_age' were then added to the purchase activity table to create the formation of monthly cohorts.
 
-User cohorts were created based on the first month individual users made a purchase. VLookup was used to find the first_purchase date of the customer that was listed for each product page event in the dataset. The columns first_purchase_month and cohort_age in the purchase activity table were then created to build monthly cohorts.
+![Image](https://github.com/user-attachments/assets/a5acacae-bdd0-4c8d-998d-0a845c24c012)
 
+Retention rates were calculated monthly, by checking if customers made a purchase in a given month and determining the number of months since their initial purchase. 
 
-
-Retention rates were calculated for each month, based on whether customers made a purchase in that month and calculating the age or number of months since their first purchase. 
-
-
+![Image](https://github.com/user-attachments/assets/fa2d0d33-6370-41e1-af0d-ddf2c97ab932)
 
 ### Results
-The total conversion rate of customers from viewing a page to making a purchase is just over 10%. There is certainly room to make improvements in how the company is converting page views into product purchases. More specifically, the shopping cart to purchase conversion rate is about 36% while the view to shopping cart conversion is only 29%. The company should consider ways to get more customers to put items in shopping carts, which will help boost overall purchase numbers. Perhaps an emailed discount code or a holiday sale on popular items could be explored as methods to boost conversion rates at all stages. 
-
-Retention rates are strongest in the first month of each cohort (when the cohort is age 1). However, rates quickly drop off (by about 50%) as the cohorts age. The company saw retention rates drop through the holiday months of November and December, so more investigation is needed in why customers did not return for holiday shopping. The company could also consider a campaign of reminder emails every 20-30 days that show customers a selection of products tailored to them in an effort to get them to return to the site and boost retention.
+The conversion funnel analysis demonstrates the website's effectiveness in converting viewers into buyers, offering a detailed view-to-purchase conversion analysis. This analysis identifies significant drop-off points and highlights stages with the highest conversion potential. Meanwhile, the retention rates provide insights into the long-term engagement of users by tracking the percentage of users who continue to make purchases over time. The data shows a strong initial retention that decreases over subsequent months, emphasizing the need for enhanced engagement strategies to maintain customer interest and activity. 
 
 ### Project Link
+https://docs.google.com/spreadsheets/d/196e6W6Vl0oJkm26sAMGiVCPElJL_VRHQT5-sAut5YuE/edit?usp=sharing  
